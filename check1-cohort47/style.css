@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-image: url(./assets/image01.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    zoom: 2;
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+   
+}
+main{
+    background-color:rgb(200, 200, 200);
+}
+section div img{
+    width: 15rem;
+    height: 25rem;
+}
+.title__top{
+    background-color: transparent;
+    color: black;
+}
+h2{
+    text-align: center;
+    margin: 1rem;
+    background-color: black;
+    color: white;
+}
+.section__main__top{
+    padding: 2rem;
+}
+section .main__top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25rem;
+    
+}
+article{
+    width: 17rem;
+    height: 25rem;
+    background-color: white;
+    border-radius: 1rem;
+}
+section article img{
+    width: 15rem;
+    height: 19rem;
+    margin: 1rem;
+}
+section article h4{
+    text-align: center;
+}
+.main__midlee{
+    display: flex;
+    flex-direction: column;
+}
+.main__midlee div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.main__bottom{
+    display: flex;
+    flex-direction: column;
+    
+}
+.main__bottom div{
+    display: flex;
+    justify-content: space-around;
+    padding: 3rem;
+}
+table{
+    border-collapse: collapse;
+}
+table tbody tr{
+    background-color: white;
+    border: black;
+    text-align: center;
+    
+}
+table td, th{
+    border: 1px solid black;
+}
+th{
+    padding: 0 3rem;
+    background-color: white;
+}
+td{
+    padding: .5rem;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+.submit {
+    width: 4rem;
+    margin:  .5rem 0;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    height: 10vh;
+    color: white;
+    padding: 1rem;
+}
+footer a{
+    color: white;
+}
+@media only screen  and (max-width: 992px) {
+    section .main__top{
+        gap: 5rem;
+    }
+  
+}
+@media only screen  and (max-width: 850px){
+    .main__midlee div{
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+}
+@media only screen  and (max-width: 650px){
+    .main__bottom div{
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+    section .main__top{
+        flex-wrap: wrap;
+    }
+    footer{
+        flex-wrap: wrap;
+        gap: 1rem;
+        justify-content: center;
+        height: 15vh;
+        padding: .5rem;
+    }
+    
+}
